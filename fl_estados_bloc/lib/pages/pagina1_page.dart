@@ -7,12 +7,12 @@ class Pagina1Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pagina 1'),
+        title: const Text('Pagina 1'),
       ),
       body: InformacionUsuario(),
 
      floatingActionButton: FloatingActionButton(
-       child: Icon( Icons.accessibility_new ),
+       child: const Icon( Icons.accessibility_new ),
        onPressed: () => Navigator.pushNamed(context, 'pagina2')
      ),
    );
@@ -26,10 +26,10 @@ class InformacionUsuario extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: double.infinity,
-      padding: EdgeInsets.all(20.0),
+      padding: const EdgeInsets.all(20.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        children: const [
 
           Text('General', style: TextStyle( fontSize: 18, fontWeight: FontWeight.bold ) ),
           Divider(),

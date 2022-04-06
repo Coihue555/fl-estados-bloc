@@ -7,7 +7,7 @@ class Pagina2Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pagina 2'),
+        title: const Text('Pagina 2'),
       ),
       body: Center(
         child: Column(
@@ -15,7 +15,7 @@ class Pagina2Page extends StatelessWidget {
           children: [
 
             MaterialButton(
-              child: Text('Establecer Usuario', style: TextStyle( color: Colors.white ) ),
+              child: const Text('Establecer Usuario', style: TextStyle( color: Colors.white ) ),
               color: Colors.blue,
               onPressed: () {
 
@@ -23,7 +23,7 @@ class Pagina2Page extends StatelessWidget {
             ),
 
             MaterialButton(
-              child: Text('Cambiar Edad', style: TextStyle( color: Colors.white ) ),
+              child: const Text('Cambiar Edad', style: TextStyle( color: Colors.white ) ),
               color: Colors.blue,
               onPressed: () {
 
@@ -31,7 +31,7 @@ class Pagina2Page extends StatelessWidget {
             ),
 
             MaterialButton(
-              child: Text('Añadir Profesion', style: TextStyle( color: Colors.white ) ),
+              child: const Text('Añadir Profesion', style: TextStyle( color: Colors.white ) ),
               color: Colors.blue,
               onPressed: () {
 
