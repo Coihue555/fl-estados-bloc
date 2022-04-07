@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:meta/meta.dart';
 import 'package:bloc/bloc.dart';
 import 'package:fl_estados_bloc/models/user.dart';
